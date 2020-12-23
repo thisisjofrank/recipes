@@ -66,6 +66,15 @@ module.exports = {
         ],
       },
     },
+    {
+    resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Montserrat\:400,400i,700` 
+        ],
+        display: 'swap'
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,

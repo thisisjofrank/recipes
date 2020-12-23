@@ -1,7 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
-import { RiArrowRightSLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
@@ -39,8 +37,8 @@ const HomePage = ({ data }) => {
       <SEO/>
       <div className="home-banner grids col-1 sm-2">
         <div>
-          <h1 class="title">{frontmatter.title}</h1>
-          <p class="tagline">{frontmatter.tagline}</p>
+          <h1 className="title">{frontmatter.title}</h1>
+          <p className="tagline">{frontmatter.tagline}</p>
           <div className="description" dangerouslySetInnerHTML={{__html: html}}/>
         </div>
         <div>
