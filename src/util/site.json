@@ -3,7 +3,7 @@
     "title": "Delicious Things",
     "titleTemplate": "%s",
     "description": "A recipe site",
-    "siteUrl": "https://test.com",
+    "siteUrl": "https://www.davids.recipes/",
     "image": "/assets/icon-512x512.png",
     "twitterUsername": "@thisisjofrank"
   },
